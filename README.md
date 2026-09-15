@@ -10,9 +10,9 @@ Single-page static website with supplied National Park sign, full original Artis
 
 GitHub Pages serves the `main` branch from its root. No build step or paid service is required.
 
-Temporary address: https://deeveaux.github.io/pointofinterest.art/
+Website: https://pointofinterest.art/
 
-Intended custom domain: https://pointofinterest.art/ (domain connection pending).
+GitHub Pages serves this custom domain; the default GitHub address redirects here.
 
 ## Editing
 
@@ -23,6 +23,6 @@ Intended custom domain: https://pointofinterest.art/ (domain connection pending)
 
 All artwork preserves the supplied proportions. Animation honors reduced-motion preferences; content works without JavaScript. The site does not collect visitor data or load analytics.
 
-When connecting the custom domain, configure it in Pages settings and update the canonical, social image, robots, and sitemap URLs to the final domain.
+The `CNAME`, canonical address, social metadata, robots file, and sitemap use `pointofinterest.art`. DNS is managed at Name.com.
 
 Keep font license notices in `assets/licenses/` when redistributing. Project artwork and written content remain the property of their respective owners.

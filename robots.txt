@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://deeveaux.github.io/pointofinterest.art/sitemap.xml
+Sitemap: https://pointofinterest.art/sitemap.xml
