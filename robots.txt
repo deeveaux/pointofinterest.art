@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deeveaux.github.io/pointofinterest.art/sitemap.xml
