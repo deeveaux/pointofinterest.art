@@ -42,7 +42,7 @@ a:focus-visible { outline: 3px solid var(--ochre); outline-offset: 7px; border-r
 .skip-link:focus { transform: translateY(0); }
 .skip-link:focus-visible { outline-color: var(--brown); outline-offset: -4px; }
 .page-progress { position: fixed; inset: 0 0 auto; height: 3px; background: var(--red); transform: scaleX(0); transform-origin: left; z-index: 5; pointer-events: none; }
-.masthead { width: 100%; padding: 28px max(48px, calc((100% - 1280px) / 2)); display: flex; justify-content: space-between; align-items: center; gap: 24px; background: var(--red); border-bottom: 1px solid rgb(243 235 217 / 24%); }
+.masthead { width: 100%; padding: 28px max(48px, calc((100% - 1280px) / 2)); display: flex; justify-content: space-between; align-items: center; gap: 24px; background: var(--brown); border-bottom: 1px solid rgb(243 235 217 / 24%); }
 .masthead a:focus-visible { outline-color: var(--paper); }
 .brand { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; color: var(--paper); font: 400 23px/1.1 "Roadgeek", sans-serif; }
 .brand-mark { width: 48px; height: 48px; border-radius: 4px; transition: transform .45s var(--ease-out); }
@@ -71,7 +71,7 @@ h1 { max-width: 726px; margin: 34px auto 46px; font: 700 clamp(27px, 3.05vw, 40p
 .larry { padding: 76px 28px 78px; }
 .larry figure { max-width: 610px; margin: 0 auto; }
 .larry img { width: 100%; }
-.footer { background: var(--red); color: var(--paper); text-align: center; padding: 47px 24px 27px; border-top: 1px solid rgb(243 235 217 / 24%); }
+.footer { background: var(--brown); color: var(--paper); text-align: center; padding: 47px 24px 27px; border-top: 1px solid rgb(243 235 217 / 24%); }
 .footer p { margin: 0 0 23px; font: 700 clamp(13px, 3.8vw, 29px)/1.4 "Besley", Georgia, serif; white-space: nowrap; }
 .back-to-top { display: inline-flex; align-items: center; gap: 13px; min-height: 44px; font-size: 14px; text-decoration: none; }
 .back-to-top span { display: inline-block; transition: transform .3s var(--ease-out); }
