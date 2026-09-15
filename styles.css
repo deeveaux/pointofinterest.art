@@ -40,6 +40,7 @@ img { display: block; max-width: 100%; height: auto; }
 a:focus-visible { outline: 3px solid var(--ochre); outline-offset: 7px; border-radius: 2px; }
 .skip-link { position: fixed; left: 20px; top: 14px; padding: 12px 18px; background: var(--paper); color: var(--brown); z-index: 10; transform: translateY(-160%); }
 .skip-link:focus { transform: translateY(0); }
+.skip-link:focus-visible { outline-color: var(--brown); outline-offset: -4px; }
 .page-progress { position: fixed; inset: 0 0 auto; height: 3px; background: var(--red); transform: scaleX(0); transform-origin: left; z-index: 5; pointer-events: none; }
 .masthead { width: min(1280px, calc(100% - 96px)); margin: auto; padding: 28px 0; display: flex; justify-content: space-between; align-items: center; gap: 24px; border-bottom: 1px solid rgb(243 235 217 / 24%); }
 .brand { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; color: var(--paper); font: 400 23px/1.1 "Roadgeek", sans-serif; }
